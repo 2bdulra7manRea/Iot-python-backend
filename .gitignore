@@ -1,0 +1,17 @@
+*.pyc
+flaskr/__pycache__/
+flaskr/sensor/__pycache__/
+flaskr/clients/__pycache__/
+flaskr/db/__pycache__/
+flaskr/.env
+.pytest_cache
+.vscode
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore the virtual environment directory
+.env/
+
+# Ignore log files
+*.log
