@@ -10,7 +10,6 @@ This project implements a Flask-based IoT backend system with a MySQL database, 
 - [Usage](#usage)
 - [Endpoints](#endpoints)
 - [Authentication](#authentication)
-- [Testing](#testing)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
@@ -76,13 +75,6 @@ This project implements a Flask-based IoT backend system with a MySQL database, 
 - JWT authentication is required for user data and sensor registration.
 - Include the JWT token in the `Authorization` header for authenticated requests.
 
-## Testing
-
-- Unit tests can be run using:
-
-  ```bash
-  python -m unittest discover
-  ```
 
 ## Deployment
 
