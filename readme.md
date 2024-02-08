@@ -1,6 +1,6 @@
-# IoT Backend with Real-time Data Streaming
+# IoT Python Backend
 
-This project implements a Flask-based IoT backend system with a MySQL database, user authentication using JWT. The backend is designed to handle sensor registration, data submission, and retrieval, and provides real-time updates to connected clients.
+This project implements a Flask-based IoT backend system with a MySQL database, user authentication using JWT. The backend is designed to handle sensor registration, data submission, and retrieval.
 
 ## Table of Contents
 
@@ -49,7 +49,7 @@ This project implements a Flask-based IoT backend system with a MySQL database, 
 4. Run the application:
 
    ```bash
-   python app.py
+   flask --app flaskr run
    ```
 
 ## Usage
@@ -70,9 +70,6 @@ This project implements a Flask-based IoT backend system with a MySQL database, 
 - **Data Submission and Retrieval:**
   - `POST /sensor/submit` - Submit sensor data.
   - `GET /sensor/:id` - Retrieve historical sensor data.
-
-- **Real-time Data Streaming:**
-  - Real-time updates are pushed to connected clients using Flask-SocketIO.
 
 ## Authentication
 
